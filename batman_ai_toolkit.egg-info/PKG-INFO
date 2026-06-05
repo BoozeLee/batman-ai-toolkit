@@ -25,6 +25,9 @@ Dynamic: license-file
 
 # Batman AI Toolkit
 
+[![PyPI](https://img.shields.io/pypi/v/batman-ai-toolkit.svg)](https://pypi.org/project/batman-ai-toolkit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 AI-powered toolkit inspired by Batman's Gotham infrastructure.
 
 ## Components
@@ -60,6 +63,7 @@ batman-batarang patrol       # Patrol status
 
 - **Free**: MIT License, personal use
 - **Pro**: €49/month - Commercial license, priority support, custom integrations
+  - [Buy now with Stripe](https://buy.stripe.com/beq9AV9s361qaulBcr)
 
 ## Commercial Support
 
