@@ -1,5 +1,8 @@
 # Batman AI Toolkit
 
+[![PyPI](https://img.shields.io/pypi/v/batman-ai-toolkit.svg)](https://pypi.org/project/batman-ai-toolkit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 AI-powered toolkit inspired by Batman's Gotham infrastructure.
 
 ## Components
