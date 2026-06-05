@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "batman-ai-toolkit"
+version = "1.0.0"
+description = "AI tools inspired by Batman's Gotham infrastructure"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Batman AI Team", email = "batman-ai@example.com"}
+]
+keywords = ["ai", "cli", "system", "monitoring", "security"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: System :: Systems Administration",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+batman-alfred = "batman_ai.alfred:main"
+batman-batcomputer = "batman_ai.batcomputer:main"
+batman-batarang = "batman_ai.batarang:main"
+
+[project.urls]
+Homepage = "https://github.com/bakery-street/batman-ai-toolkit"
+Documentation = "https://github.com/bakery-street/batman-ai-toolkit#readme"
+Repository = "https://github.com/bakery-street/batman-ai-toolkit.git"
+Issues = "https://github.com/bakery-street/batman-ai-toolkit/issues"
+
+[tool.setuptools.package-data]
+batman_ai = ["py.typed"]

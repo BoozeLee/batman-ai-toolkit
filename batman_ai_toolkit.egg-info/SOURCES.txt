@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+batman_ai/__init__.py
+batman_ai/alfred.py
+batman_ai/arsenal.py
+batman_ai/batarang.py
+batman_ai/batcomputer.py
+batman_ai/gotham.py
+batman_ai_toolkit.egg-info/PKG-INFO
+batman_ai_toolkit.egg-info/SOURCES.txt
+batman_ai_toolkit.egg-info/dependency_links.txt
+batman_ai_toolkit.egg-info/entry_points.txt
+batman_ai_toolkit.egg-info/requires.txt
+batman_ai_toolkit.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+batman-alfred = batman_ai.alfred:main
+batman-batarang = batman_ai.batarang:main
+batman-batcomputer = batman_ai.batcomputer:main

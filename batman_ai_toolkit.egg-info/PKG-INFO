@@ -1,0 +1,75 @@
+Metadata-Version: 2.4
+Name: batman-ai-toolkit
+Version: 1.0.0
+Summary: AI tools inspired by Batman's Gotham infrastructure
+Author-email: Batman AI Team <batman-ai@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/bakery-street/batman-ai-toolkit
+Project-URL: Documentation, https://github.com/bakery-street/batman-ai-toolkit#readme
+Project-URL: Repository, https://github.com/bakery-street/batman-ai-toolkit.git
+Project-URL: Issues, https://github.com/bakery-street/batman-ai-toolkit/issues
+Keywords: ai,cli,system,monitoring,security
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Dynamic: license-file
+
+# Batman AI Toolkit
+
+AI-powered toolkit inspired by Batman's Gotham infrastructure.
+
+## Components
+
+- **Alfred AI** - System analysis and optimization
+- **Batcomputer** - Threat analysis and mission planning
+- **Bat-Arsenal** - Equipment/inventory management
+- **Gotham DB** - Crime/incident database
+- **Batarang CLI** - Unified command-line interface
+
+## Quick Start
+
+```bash
+pip install batman-ai-toolkit
+
+# All commands:
+batman-batarang analyze      # System analysis
+batman-batarang threats Gotham  # Threat analysis
+batman-batarang mission "Operation Batman" "Stop Crime"  # Mission planning
+batman-batarang arsenal      # Equipment status
+batman-batarang patrol       # Patrol status
+```
+
+## AI Automation Use Cases
+
+- **Infrastructure Monitoring**: CPU, memory, GPU, storage analysis
+- **Security Operations**: Threat modeling, risk assessment, incident tracking
+- **Project Management**: Task/mission planning with database integration
+- **Resource Management**: Equipment tracking and deployment
+- **Development**: AI-assisted coding with system context
+
+## Licensing
+
+- **Free**: MIT License, personal use
+- **Pro**: €49/month - Commercial license, priority support, custom integrations
+
+## Commercial Support
+
+For commercial licensing, priority support, or custom integrations, contact:
+batman-ai@example.com
+
+## Security Issues
+
+See [SECURITY.md](SECURITY.md) for reporting vulnerabilities.
+
+## Contributing
+
+Contributions are welcome! Please read our contributing guidelines.
